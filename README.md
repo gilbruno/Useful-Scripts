@@ -8,6 +8,12 @@ Useful Scripts
 * <b>simple_apache_firewall.sh</b> -- Simple firewall script for apache to block IPs with lots requests from log
 * <b>swap.sh</b> -- Script to count RAM and help create swap for faster system working
 * <b>wordpress.sh</b> -- Special script to help configure Apache, MySQL, WordPress, Swap and some other stuff, automatically installs all required packages, configure files etc
+
+To get access to phpMyAdmin UI : 
+* Edit the Apache Conf File : /etc/apache2/apache.conf
+* Add the line at the end : Include /etc/phpmyadmin/apache.conf
+* Restart apache : sudo service apache2 restart.
+* Refresh the URL : http://localhost/phpmyadmin
 </pre>
 
 <hr />
